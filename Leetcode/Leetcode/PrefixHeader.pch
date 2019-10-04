@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  Leetcode
+//
+//  Created by 陈欢 on 2019/10/2.
+//  Copyright © 2019 Matcha00. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "LCNetworkManager.h"
+#import <MJExtension.h>
+#import "LCUrlEngine.h"
+#import <Masonry.h>
+
+
+#define WeakSelf            __weak typeof(self) weakSelf = self
+#define ScreenWidth         [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight         [UIScreen mainScreen].bounds.size.height
+
+#endif /* PrefixHeader_pch */
