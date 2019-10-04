@@ -4,7 +4,7 @@ import time
 from DBHelp import *
 db = DBHelp(host="localhost",port=3306,user='root',password='123456',database='leetcode',charset='utf8')
 
-print("查询全表:", db.find_all("select * from question")[0]['question_id'])
+print("查询全表:", db.find_all("select * from question"))
 
 
 # url="https://leetcode-cn.com/graphql"
